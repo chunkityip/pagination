@@ -2,6 +2,9 @@
 
 Patient Management is an application that allows to manage patients
 
+## Demo
+![paginationapp](https://github.com/chunkityip/pagination/assets/47329780/c89229a0-68b2-4419-9d8d-ca40ca5d018e)
+
 ## Description
 Patient Management is an application that allows to manage patients
 
@@ -31,6 +34,4 @@ Or the Java command below to run the Jar file after compiling the project
 
 ## Developers
 * Chunkit
-
-## Demo
-![paginationapp](https://github.com/chunkityip/pagination/assets/47329780/c89229a0-68b2-4419-9d8d-ca40ca5d018e)
+*

@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="22b7071f-b22d-4c3d-9b58-11af68d54cbf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/getarrays/pagination/PaginationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/getarrays/pagination/PaginationApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/getarrays/pagination/resource/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/getarrays/pagination/resource/UserResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/dbscript.SQL" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/dbscript.SQL" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,9 +91,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Write tests for method UserResource.getUsers" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="demo" />
+      <settings run-config-name="Write tests for method UserResource.getUsers" include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>method</selection-scope>
+        <selected-element key="io.getarrays.pagination.resource.UserResource.getUsers:(Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;)Lorg/springframework/http/ResponseEntity;" />
+      </settings>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.io.getarrays.pagination.PaginationApplication" />
+        <item itemvalue="Diffblue Cover.Write tests for method UserResource.getUsers" />
         <item itemvalue="Application.PaginationApplication" />
       </list>
     </recent_temporary>

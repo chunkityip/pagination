@@ -31,11 +31,5 @@ Or the Java command below to run the Jar file after compiling the project
 
 ## Developers
 
-* Junior RT
+* Chunkit
 
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-[Get Arrays](https://www.getarrays.io/)

@@ -3,7 +3,7 @@
 Patient Management is an application that allows to manage patients
 
 ## Demo
-![paginationapp](https://github.com/chunkityip/pagination/assets/47329780/c89229a0-68b2-4419-9d8d-ca40ca5d018e)
+![paginationapp](https://github.com/chunkityip/paginationapp/assets/47329780/1ed6d208-80e5-49e9-ba1a-ce0662bea89e)
 
 ![image](https://github.com/chunkityip/pagination/assets/47329780/a4502d7a-5d69-4c38-bba3-f81f1b6fa6ea)
 

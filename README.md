@@ -39,4 +39,3 @@ Or the Java command below to run the Jar file after compiling the project
 
 ## Developers
 * Chunkit
-*

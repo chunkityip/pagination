@@ -9,6 +9,9 @@ import java.util.Map;
 
 import static com.fasterxml.jackson.annotation.JsonInclude.Include.NON_DEFAULT;
 
+/*
+*HttpResponse class provides a standardized way to structure and represent HTTP responses in application.
+ */
 
 @Data
 @SuperBuilder

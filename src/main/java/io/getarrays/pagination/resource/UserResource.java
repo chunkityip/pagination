@@ -17,6 +17,11 @@ import static java.time.LocalDateTime.now;
 import static java.util.Map.of;
 import static org.springframework.http.HttpStatus.OK;
 
+/*
+* It designed to handle requests to retrieve user information with optional query parameters for filtering and pagination.
+* The response is wrapped in an HttpResponse object, providing a standardized structure for API responses
+ */
+
 
 @RestController
 @RequestMapping("/")
@@ -28,9 +33,6 @@ public class UserResource {
     public ResponseEntity<HttpResponse>getUsers(@RequestParam Optional<String> name,
                                                 @RequestParam Optional<Integer> page,
                                                 @RequestParam Optional<Integer> size) throws InterruptedException {
-        //It means the loading icon stay on 3 seconds
-        //TimeUnit.SECONDS.sleep(3);
-        //throw new RuntimeException("Forced exception for testing");
         return ResponseEntity.ok().body(
                 HttpResponse.builder()
                         .timeStamp(now().toString())

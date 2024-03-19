@@ -59,5 +59,6 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>backend</finalName>
 	</build>
 </project>

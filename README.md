@@ -16,6 +16,9 @@ Patient Management is an application that allows to manage patients
 ## Software Requirements
 * Java
 * MySQL Server
+* Angular
+* DockerHub
+* Jenkins
 
 ## Installation
 

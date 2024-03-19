@@ -14,7 +14,7 @@ Patient Management is an application that allows to manage patients
 ## Description
 Patient Management is an application that allows to manage patients
 
-3/19/2024 Update: Jenkins Pipeline Build Successfully.
+3/19/2024 Update: Jenkins Pipeline Build Successfully. Docker Image build Successfully.
 
 
 

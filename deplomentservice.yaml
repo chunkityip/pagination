@@ -1,36 +1,35 @@
 apiVersion: apps/v1
-kind: Deployment # Kubernetes resource kind we are creating
+kind: Deployment
 metadata:
-  name: pagination_backend-k8s-deployment
+  name: pagination-backend-k8s-deployment  # Updated deployment name
 spec:
   selector:
     matchLabels:
       app: pagination_backend-k8s
-  replicas: 2 # Number of replicas that will be created for this deployment
+  replicas: 2
   template:
     metadata:
       labels:
         app: pagination_backend-k8s
     spec:
       containers:
-        - name: pagination_backend-k8s
-          image: 510599/pagination_backend # Image that will be used to containers in the cluster
+        - name: pagination-backend-k8s  # Updated container name
+          image: 510599/pagination_backend
           imagePullPolicy: IfNotPresent
           ports:
-            - containerPort: 8080 # The port that the container is running on in the cluster
-
+            - containerPort: 8080
 
 ---
 
-apiVersion: v1 # Kubernetes API version
-kind: Service # Kubernetes resource kind we are creating
-metadata: # Metadata of the resource kind we are creating
-  name: pagination_backend-k8ssvc
+apiVersion: v1
+kind: Service
+metadata:
+  name: pagination-backend-k8s-svc  # Updated service name
 spec:
   selector:
     app: pagination_backend-k8s
   ports:
     - protocol: "TCP"
-      port: 8080 # The port that the service is running on in the cluster
-      targetPort: 8080 # The port exposed by the service
-  type: NodePort # type of the service.
+      port: 8080
+      targetPort: 8080
+  type: NodePort

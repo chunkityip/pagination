@@ -6,11 +6,10 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
 
-/*
-*UserRepository interface provides a convenient way to interact with the User entity in the database,
-* including :
-1. basic CRUD operations
-2. custom query for finding users by name with pagination
+/**
+* UserRepository interface provides a convenient way to interact with the User entity in the database,including :
+* 1. basic CRUD operations
+* 2. custom query for finding users by name with pagination
  */
 
 @Repository

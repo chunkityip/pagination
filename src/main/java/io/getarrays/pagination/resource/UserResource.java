@@ -17,10 +17,11 @@ import static java.time.LocalDateTime.now;
 import static java.util.Map.of;
 import static org.springframework.http.HttpStatus.OK;
 
-/*
-* It designed to handle requests to retrieve user information with optional query parameters for filtering and pagination.
-* The response is wrapped in an HttpResponse object, providing a standardized structure for API responses
- */
+/**
+* It designed to handle requests to retrieve user information with optional query parameters for
+ * filtering and pagination.
+ * The response is wrapped in an HttpResponse object, providing a standardized structure for API responses
+ * */
 
 
 @RestController

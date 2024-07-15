@@ -16,9 +16,9 @@ import javax.persistence.Id;
 import static com.fasterxml.jackson.annotation.JsonInclude.Include.NON_DEFAULT;
 import static javax.persistence.GenerationType.IDENTITY;
 
-/*
-*User class interact with a database table representing users
-*It provides a convenient way to create, read, update, and delete user records in the database
+/**
+* User class interact with a database table representing users
+* It provides a convenient way to create, read, update, and delete user records in the database
  */
 
 

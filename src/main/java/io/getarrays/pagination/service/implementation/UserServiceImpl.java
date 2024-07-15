@@ -14,9 +14,9 @@ import javax.transaction.Transactional;
 import static org.springframework.data.domain.PageRequest.of;
 
 
-/*
-*It logs information about the operation.
-*It utilizes the injected UserRepository to perform the actual database query.
+/**
+* It logs information about the operation.
+* It utilizes the injected UserRepository to perform the actual database query.
  */
 
 @Service

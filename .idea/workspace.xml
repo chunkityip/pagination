@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22b7071f-b22d-4c3d-9b58-11af68d54cbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/getarrays/pagination/service/implementation/UserServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/getarrays/pagination/PaginationApplicationTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="22b7071f-b22d-4c3d-9b58-11af68d54cbf" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

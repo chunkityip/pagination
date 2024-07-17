@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22b7071f-b22d-4c3d-9b58-11af68d54cbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/getarrays/pagination/service/implementation/UserServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/dbscript.SQL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/getarrays/pagination/domain/HttpResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/getarrays/pagination/domain/HttpResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/getarrays/pagination/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/getarrays/pagination/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/getarrays/pagination/repostitory/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/getarrays/pagination/repostitory/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/getarrays/pagination/resource/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/getarrays/pagination/resource/UserResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/getarrays/pagination/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/getarrays/pagination/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/getarrays/pagination/service/implementation/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/getarrays/pagination/service/implementation/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/getarrays/pagination/PaginationApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -38,15 +29,15 @@
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "contexts": [
+  <component name="KubernetesApiProvider">{
+  &quot;contexts&quot;: [
     {
-      "name": "minikube",
-      "originalNamespace": "default"
+      &quot;name&quot;: &quot;minikube&quot;,
+      &quot;originalNamespace&quot;: &quot;default&quot;
     }
   ],
-  "isMigrated": true
-}]]></component>
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="KubernetesSettings">
     <option name="contextName" value="minikube" />
   </component>
@@ -60,9 +51,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2QqCFjeWiUNWJruM39R2PRsLewJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -71,10 +62,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.All in pagination.executor": "Coverage",
+    "JUnit.UserServiceImplTest.executor": "Coverage",
+    "JUnit.UserServiceImplTest.testGetUsers.executor": "Run",
+    "Maven.pagination [deploy].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/alex0/OneDrive/Desktop/Porject/paginationapp/backend",
     "node.js.detected.package.eslint": "true",
@@ -95,6 +92,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="io.getarrays.pagination.service.implementation" />
     </key>
@@ -102,13 +102,16 @@
       <recent name="io.getarrays.pagination" />
       <recent name="" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="io.getarrays.pagination.service.implementation" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml.mysql: Compose Deployment">
+  <component name="RunManager" selected="JUnit.UserServiceImplTest.testGetUsers">
     <configuration name="PaginationApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.getarrays.pagination.PaginationApplication" />
       <module name="pagination" />
@@ -122,32 +125,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserResourceTest.getUsers_withMissingParameters_shouldReturnDefaultValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in pagination" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pagination" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.getarrays.pagination.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.getarrays.pagination" />
-      <option name="MAIN_CLASS_NAME" value="io.getarrays.pagination.UserResourceTest" />
-      <option name="METHOD_NAME" value="getUsers_withMissingParameters_shouldReturnDefaultValues" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="io.getarrays.pagination in pagination" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pagination" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.getarrays.pagination.*" />
+          <option name="PATTERN" value="io.getarrays.pagination.service.implementation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.getarrays.pagination" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="io.getarrays.pagination.service.implementation" />
+      <option name="MAIN_CLASS_NAME" value="io.getarrays.pagination.service.implementation.UserServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.testGetUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pagination" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.getarrays.pagination.service.implementation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.getarrays.pagination.service.implementation" />
+      <option name="MAIN_CLASS_NAME" value="io.getarrays.pagination.service.implementation.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="testGetUsers" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,7 +172,9 @@
       </method>
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
@@ -171,35 +185,14 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="docker-compose.yml.mysql: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="mysql" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.docker-compose.yml.mysql: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="JUnit.UserServiceImplTest.testGetUsers" />
+        <item itemvalue="JUnit.All in pagination" />
+        <item itemvalue="JUnit.UserServiceImplTest" />
         <item itemvalue="Application.PaginationApplication" />
-        <item itemvalue="JUnit.io.getarrays.pagination in pagination" />
-        <item itemvalue="JUnit.UserResourceTest.getUsers_withMissingParameters_shouldReturnDefaultValues" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -220,14 +213,18 @@
     <SUITE FILE_PATH="coverage/backend$UserResourceTest_getUsers_withValidParameters_shouldReturnData.ic" NAME="UserResourceTest.getUsers_withValidParameters_shouldReturnData Coverage Results" MODIFIED="1706631585436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>io.getarrays.pagination.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/backend$io_getarrays_pagination_in_pagination.ic" NAME="io.getarrays.pagination in pagination Coverage Results" MODIFIED="1706631970356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.getarrays.pagination.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/pagination_backend$All_in_pagination.ic" NAME="All in pagination Coverage Results" MODIFIED="1721220642533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/backend$UserResourceTest_getUsers_withMissingParameters_shouldReturnDefaultValues.ic" NAME="UserResourceTest.getUsers_withMissingParameters_shouldReturnDefaultValues Coverage Results" MODIFIED="1706631830894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>io.getarrays.pagination.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/backend$UserResourceTest.ic" NAME="UserResourceTest Coverage Results" MODIFIED="1706631226948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>io.getarrays.pagination.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/backend$io_getarrays_pagination_in_pagination.ic" NAME="io.getarrays.pagination in pagination Coverage Results" MODIFIED="1706631970356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>io.getarrays.pagination.*</FILTER>
+    <SUITE FILE_PATH="coverage/pagination_backend$UserServiceImplTest.ic" NAME="UserServiceImplTest Coverage Results" MODIFIED="1721220616208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>io.getarrays.pagination.service.implementation.*</FILTER>
     </SUITE>
   </component>
 </project>
